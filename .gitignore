@@ -1,0 +1,45 @@
+
+# -------------------------------
+# 🔒 Secrets & local environment
+# -------------------------------
+.env
+.venv/
+*.db
+
+# -------------------------------
+# 🧠 Jupyter artifacts
+# -------------------------------
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Exclude notebooks 1–3 (keep 4 onward)
+1_*.ipynb
+2_*.ipynb
+3_*.ipynb
+
+# -------------------------------
+# 💬 Chat / AI conversation files
+# -------------------------------
+*.chat
+
+# -------------------------------
+# 🧰 Build / temp / cache files
+# -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.tmp
+
+# -------------------------------
+# 🗂 IDE & OS specific
+# -------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# 📄 Optional: large reports or outputs
+# (uncomment if you don’t want generated docs tracked)
+reports/*.docx
+reports/*.pdf

@@ -1,0 +1,24 @@
+# ==============================================================
+# Agentic Finance Pipeline Environment
+# Compatible with JupyterAI V3 notebooks & stable data analysis
+# ==============================================================
+
+# --- Core Jupyter + AI integration ---
+jupyter-ai==3.0.0b7
+openai==1.50.2
+python-dotenv==1.0.1
+
+# --- Data science stack ---
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+
+# --- API & web requests ---
+requests==2.32.3
+yfinance==0.2.38   # stable version – avoids curl_cffi dependency
+
+# --- Optional extras (only if used) ---
+aisuite==0.1.0
+pypandoc==1.13        # Markdown → PDF/Docx exporter
+weasyprint==62.3      # Alternative HTML→PDF engine (needs GTK)
+# beautifulsoup4==4.12  # optional if you parse HTML manually
