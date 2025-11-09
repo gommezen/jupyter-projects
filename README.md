@@ -1,10 +1,5 @@
 # 📘 Jupyter Projects  
-_A collection of data exploration notebooks, AI integrations, and analytic experiments._
-
-This repository contains a growing suite of 
-
 This repository contains a growing suite of Jupyter notebooks that I use to explore data with AI models, and to generate automated insights and reports. Som notebooks are heavily inspired by courses and repositories I follow, others wibe coding, all however drawing on my own ideas and curiosity about how to codevelop with AI.
-
 
 ---
 
@@ -29,8 +24,6 @@ This notebook investigates **Palantir Technologies Inc. (`PLTR`)** from **Januar
 5. **Report Generation:** Export of clean summaries to Markdown → DOCX/PDF using Pandoc.
 
 ---
-
----
 ### Project structure
 jupyter-projects/
 ├── .env                  # local secrets (ignored by git)
@@ -46,8 +39,6 @@ jupyter-projects/
 │       ├── pltr_report.docx
 │       └── pltr_report.pdf
 └── finance_chat.chat     # excluded from repo
-
----
 
 ---
 
@@ -70,5 +61,5 @@ SERPER_API_KEY=your_api_key_here
 OLLAMA_URL=http://localhost:11434/api/chat
 OLLAMA_MODEL=llama3.1:8b-instruct-q8_0
 
-Launch: jupyter lab
----
+# Start notebook
+jupyter lab
