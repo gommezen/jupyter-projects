@@ -48,10 +48,7 @@ Install all dependencies in a virtual environment:
 ```bash
 python -m venv .venv
 # Activate your environment
-# (Windows)
-.\.venv\Scripts\activate
-# (macOS / Linux)
-source .venv/bin/activate
+.\.venv\Scripts\activate # (Windows)
 
 # Install requirements
 pip install -r requirements.txt
