@@ -17,6 +17,9 @@
 2_*/
 3_*/
 
+# Automatically strip notebook outputs (nbstripout)
+# (Requires nbstripout to be installed)
+.gitattributes
 
 # -------------------------------
 # 💬 Chat / AI conversation files
@@ -31,6 +34,11 @@ __pycache__/
 *$py.class
 *.log
 *.tmp
+*.egg-info/
+build/
+dist/
+.eggs/
+*.bak
 
 # -------------------------------
 # 🗂 IDE & OS specific
@@ -38,6 +46,20 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+.idea/
+
+# -------------------------------
+# 📄 Reports and generated outputs
+# -------------------------------
+# Ignore all generated report files
+4_exploring_stock_data/reports/*
+# Keep one clean example for demonstration
+!4_exploring_stock_data/reports/pltr_report.md
+
+# Ignore large document or export formats globally
+*.docx
+*.pdf
+*.zip
 
 # -------------------------------
 # 📄 Optional: large reports or outputs
